@@ -1,0 +1,23 @@
+<% include partials/header %>
+
+<div class="container">
+
+    <header>
+        <h1>Campgrounds page</h1>
+    </header>
+
+    <a href="/campgrounds/new">Add New Campground</a>
+    
+    <div class="grid-container">
+        <% campgrounds.forEach((campground) => { %>
+            <div class="grid-item">
+                <h4><%= campground.name %></h4>
+                <img src="<%= campground.image %>">
+            </div>
+        <% }); %>
+    </div>
+
+    <% include partials/footer %>
+</div>
+
+
