@@ -2,19 +2,23 @@
 
 <div class="container">
 
-    <header>
-        <h1>Campgrounds page</h1>
-    </header>
-
-    <a href="/campgrounds/new">Add New Campground</a>
+    <div class="jumbotron">
+        <header>
+            <h1>Campgrounds page</h1>
+        </header>
     
-    <div class="grid-container">
-        <% campgrounds.forEach((campground) => { %>
-            <div class="grid-item">
-                <h4><%= campground.name %></h4>
-                <img src="<%= campground.image %>">
-            </div>
-        <% }); %>
+        <button type="button" class="btn-primary btn-lg" href="/campgrounds/new">Add New Campground</button>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <% campgrounds.forEach((campground) => { %>
+                <div class="col-md-6 col-lg-3">
+                    <img src="<%= campground.image %>" class="img-thumbnail">
+                    <h4><%= campground.name %></h4>
+                </div>
+            <% }); %>
+        </div>
     </div>
 
     <% include partials/footer %>
