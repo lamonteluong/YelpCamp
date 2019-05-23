@@ -9,6 +9,12 @@ app.set('view engine', 'ejs');
 var campArr = [
     {name: "Salmon Creek", image: 'https://farm1.staticflickr.com/130/321487195_ff34bde2f5.jpg'},
     {name: 'Green Hills', image: 'https://farm4.staticflickr.com/3282/2770447094_2c64348643.jpg'},
+    {name: 'Big Peak', image: 'https://farm9.staticflickr.com/8422/7842069486_c61e4c6025.jpg'},
+    {name: "Salmon Creek", image: 'https://farm1.staticflickr.com/130/321487195_ff34bde2f5.jpg'},
+    {name: 'Green Hills', image: 'https://farm4.staticflickr.com/3282/2770447094_2c64348643.jpg'},
+    {name: 'Big Peak', image: 'https://farm9.staticflickr.com/8422/7842069486_c61e4c6025.jpg'},
+    {name: "Salmon Creek", image: 'https://farm1.staticflickr.com/130/321487195_ff34bde2f5.jpg'},
+    {name: 'Green Hills', image: 'https://farm4.staticflickr.com/3282/2770447094_2c64348643.jpg'},
     {name: 'Big Peak', image: 'https://farm9.staticflickr.com/8422/7842069486_c61e4c6025.jpg'}
 ];
 
