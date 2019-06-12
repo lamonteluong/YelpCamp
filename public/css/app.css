@@ -1,5 +1,6 @@
 #new-camp-form {
     width: 30%;
+    min-width: 300px;
     margin: 2em auto;
 }
 
