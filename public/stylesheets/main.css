@@ -7,3 +7,8 @@
 .title {
     text-align: center;
 }
+
+.comment-body {
+    background-color: rgb(245, 245, 245);
+    margin-top: 1em;
+}
